@@ -1,0 +1,10 @@
+package com.in28minutes.oops;
+
+public class Books {
+	//nbr of copies
+	int nbrOfCopies;
+
+	void buy() {
+		System.out.println("Book bought");
+	}
+}

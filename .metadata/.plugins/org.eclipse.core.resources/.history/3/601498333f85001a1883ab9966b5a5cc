@@ -1,0 +1,12 @@
+package com.in28minutes.forloop;
+
+public class MyNumberSolRunner {
+
+	public static void main(String[] args) {
+		MyNumberSol number = new MyNumberSol(6);
+		
+		System.out.print(number.isPrimeSol());
+
+	}
+
+}

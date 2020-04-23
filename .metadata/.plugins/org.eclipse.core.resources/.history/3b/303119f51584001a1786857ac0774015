@@ -1,0 +1,22 @@
+package com.in28minutes.oops;
+
+public class Books {
+	//nbr of copies
+	private int nbrOfCopies;
+
+	public int getNbrOfCopies() {
+		return nbrOfCopies;
+	}
+
+	public void setNbrOfCopies(int nbrOfCopies) {
+		this.nbrOfCopies = nbrOfCopies;
+	}
+	
+	public void incrNbrCopies(int howmany) {
+		this.nbrOfCopies = nbrOfCopies + howmany;
+	}
+
+	void buy() {
+		System.out.println("Book bought");
+	}
+}

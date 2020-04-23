@@ -1,0 +1,31 @@
+package com.in28minutes.character;
+
+public class MyChar {
+	
+	private char character;
+
+	public MyChar(char character) {
+		this.character = character;
+	}
+
+	public char getCharacter() {
+		return character;
+	}
+
+
+	public void setCharacter(char character) {
+		this.character = character;
+	}
+
+	public boolean isVowel() {
+		if(character == 'a') //( 'a'| 'e'|'i'|'o'|'u'))
+			return true;
+		
+		return false;
+	}
+
+
+
+	
+
+}

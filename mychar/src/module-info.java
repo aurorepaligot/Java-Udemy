@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * @author Gland
+ *
+ */
+module mychar {
+}

@@ -1,0 +1,20 @@
+package com.in28minutes.oops;
+
+public class BooksRunner {
+
+	public static void main(String[] args) {
+		Books ArtOfComputerProgramming = new Books();
+		Books EffectiveJava = new Books();
+		Books CleanCode = new Books();
+		
+		ArtOfComputerProgramming.buy();
+		EffectiveJava.buy();
+		CleanCode.buy();
+		
+		ArtOfComputerProgramming.nbrOfCopies = 2;
+		EffectiveJava.nbrOfCopies = 100;
+		CleanCode.nbrOfCopies = 20;
+
+	}
+
+}

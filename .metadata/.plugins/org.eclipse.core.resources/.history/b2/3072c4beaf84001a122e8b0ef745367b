@@ -1,0 +1,17 @@
+package com.in28minutes.switchex;
+
+public class IsWeekDaySwitch {
+	
+	public static void main(String[]args) {
+		System.out.println(isWeekDay(1));
+	}
+	
+	public static boolean isWeekDay(int day){
+		switch(day) {
+		case 1: return true;
+		case 2: return true;
+		}
+		return false;
+	}
+
+}

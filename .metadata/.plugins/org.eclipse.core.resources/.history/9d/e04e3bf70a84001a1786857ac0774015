@@ -1,0 +1,8 @@
+package com.in28minutes.oops;
+
+public class Books {
+
+	void buy() {
+		System.out.println("Book bought");
+	}
+}

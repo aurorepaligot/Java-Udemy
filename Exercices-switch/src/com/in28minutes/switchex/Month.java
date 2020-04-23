@@ -1,0 +1,19 @@
+package com.in28minutes.switchex;
+
+public class Month {
+
+	public static void main(String[] args) {
+		System.out.println(isMonth(0));
+
+	}
+	
+	public static String isMonth(int m) {
+		switch(m) {
+		case 0: return "January"; 
+		case 1: return "February"; 
+		}
+		return "invalid";
+		
+	}
+
+}

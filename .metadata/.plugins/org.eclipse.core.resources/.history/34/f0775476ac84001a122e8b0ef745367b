@@ -1,0 +1,22 @@
+package com.in28minutes.switchex;
+
+public class Month {
+
+	public static void main(String[] args) {
+	System.out.println(isMonth(0));
+	}
+	
+	public static void isMonth() {
+		
+		switch (m) {
+		
+		case 0 : System.out.println(m + " is Sunday"); break;
+		case 1 : System.out.println(m + " is Monday"); break;
+		case 2 : System.out.println(m + " is Tuesday"); break;
+		case 3 : System.out.println(m + " is Wednesday"); break;
+		default : System.out.println("test"); break;
+		}
+		
+	}
+
+}
